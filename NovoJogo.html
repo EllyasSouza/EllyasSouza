@@ -1,0 +1,52 @@
+<html>
+  <body>
+    <canvas id="folha" width="600" height="500">
+
+    <script>
+window.onload = function() {
+setInterval(executar, 1000 / 30):
+}
+  function executar() {
+    // todo o cóodigo do jogo
+  }
+
+
+      var folhaDesenho = document.getElementById("folha");
+      var areaDesenho = folhaDesenho.getContext("2d");
+
+      var larguraCampo = 600;
+      var alturaCampo = 500;
+      var expressuraCampo = 5;
+
+      var expressuraRede = 5;
+      var posicaoBolaX = posicaoBolaY = 10;
+      var diametroBola = 100;
+
+      areaDesenho.fillStyle = "#286047"; // cor verde
+      areaDesenho.fillRect(0, 0, larguraCampo, alturaCampo);
+      areaDesenho.fillStyle = "#ffffff"; // cor branca
+
+      // Linha
+      areaDesenho.fillRect(larguraCampo / 2 - expressuraRede / 2, 0,
+        larguraLinha, 500, );
+      // Raquete 1
+
+      // Raquete 2
+
+var contador = 0;
+while(contador = 50) {
+      // Desenhe a bola
+      areaDesenho.fillRect(posicaoBolaX, diametroBola /2, posicaoBolaY - posicaoBolaX);
+
+posicaoBolaX = posicaoBolaX + 1;
+posicaoBolaY = posicaoBolaY + 1;
+
+contador = contador + 1;
+
+
+}, 10);
+
+}
+    </script>
+  </body>
+</html>
